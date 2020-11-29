@@ -1,0 +1,169 @@
+
+/* Add a black background color to the top navigation */
+.topnav {
+    display: flex;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 12px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.logo {
+    background-color: #fd0202;
+    font-family: "Lato", sans-serif;
+    font-size: 34px;
+    color: white;
+  }
+
+  .topnav a.active {
+      font-family: "Lato", sans-serif;
+      text-transform: uppercase;
+      margin: 15px;
+  }
+
+  .topnav .search-container {
+    float: left;
+    padding: 12px;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 6px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 6px;
+    margin-right: 16px;
+    background: #fd0202;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button i {
+      color: #f2f2f2;
+  }
+
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+
+  .topnav .signin-container {
+      display: flex;
+      flex-flow: column;
+      justify-content: flex-end;
+  }
+
+  .topnav .signin-container a.signin, a.cart { 
+    font-family: "Lato", sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding: 10px;
+      
+  }
+
+  .music-photos img {
+      width: 1200px;
+
+  }
+
+  .music-photos ul, .varieties {
+    animation-name: logobox;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+      background-color: #bd3038;
+      margin: 0;
+
+  }
+
+  @keyframes logobox {
+      from {background-color: #bd3038;}
+      to {background-color: blue;}
+  }
+
+  .music-photos .varieties h2 {
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    text-shadow: 4px;
+    color: #fff;
+    padding-top: 20px;
+    margin-top: 0;
+
+  }
+
+  .music-photos .varieties p {
+      font-family: "Montserrat";
+      font-size: 15px;
+      color: #fff;
+      margin: 20 40px;
+      padding-left: 60px;
+      padding-right: 60px;
+      padding-bottom: 60px;
+
+  }
+  .varieties p {
+      margin-bottom: 0;
+  }
+
+  .music-photos .reasons {
+    display: block;
+    align-items: center;
+    list-style-type: none;  
+    padding-left: 60px;
+  }
+  .music-photos .reasons li {
+    text-align: center;  
+    font-family: "Montserrat";
+      font-size: 30px;
+      color: #fff;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: row;
+      background-color: #333;
+  }
+
+  .footer-whole {
+      width: 100%;
+      text-align: center;
+
+  }
+  .footer-nav {
+    display: inline-block;
+    margin: 0 auto;
+    height: 90px;
+    padding-top: 40px;
+
+
+  }
+  
+  .footer-nav a {
+
+    font-family: "Lato", sans-serif;
+      font-size: 12px;
+      color: #f2f2f2;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      padding-right: 10px;
+  }
